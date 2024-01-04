@@ -83,7 +83,7 @@ python ingest.py
 ```
 
 > [!NOTE]
-> You can replace the example NIKE document with other PDFs. 
+> You can replace the example Nike document with other PDFs. 
 > You can update the prefix of your custom chunk as below in [ingest.py](rag-chatbot/packages/rag-redis/ingest.py):
 > ```python
 > # Load list of pdfs
