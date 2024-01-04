@@ -83,15 +83,16 @@ python ingest.py
 ```
 
 > [!NOTE]
-> You can replace the example Nike document with other PDFs. 
+> You can replace the example Nike document with other PDFs.
+> 
 > You can update the prefix of your custom chunk as below in [ingest.py](rag-chatbot/packages/rag-redis/ingest.py):
 > ```python
 > # Load list of pdfs
-    company_name = "Novo Nordisk"
-    data_path = "data/"
-    doc = [os.path.join(data_path, file) for file in os.listdir(data_path)][0]
-
-    print(f"Parsing doc for {company_name}", doc)
+> company_name = "Novo Nordisk"
+> data_path = "data/"
+> doc = [os.path.join(data_path, file) for file in os.listdir(data_path)][0]
+> 
+> print(f"Parsing doc for {company_name}", doc)
 > ```
 
 6. Serve the FastAPI app with [LangServe](https://github.com/langchain-ai/langserve) under the folder [rag-chatbot](rag-chatbot):
