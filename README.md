@@ -110,7 +110,7 @@ Visit http://127.0.0.1:8000/rag-redis/playground to use the testing playground, 
     <img src="pix/demo.png" width="600" />
 </p>
 
-## [What is inside]
+## What is inside
 
 ### Getting started
 
