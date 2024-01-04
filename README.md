@@ -65,7 +65,7 @@ source venv/bin/activate
 pip install -U langchain-cli pydantic==1.10.13
 ```
 
-3. Create a new LangChain project. After this, a new folder [rag-chatbot](rag-chatbot) will be created:
+3. Create a new LangChain project, after this, a new folder [rag-chatbot](rag-chatbot) will be created:
 ```bash
 langchain app new rag-chatbot --package rag-redis
 ```
