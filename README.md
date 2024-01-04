@@ -4,8 +4,8 @@
 
 In this demo, it includes mainly two things:
 
-- Have a running chatbot powered by Redis 👉[Follow this route](#rag-chatbot)
-- Rip open the models and see what is inside 👉[Follow this route](#what-is-inside)
+- Have a running chatbot powered by Redis 👉 [Follow this route](#rag-chatbot)
+- Rip open the models and see what is inside 👉 [Follow this route](#what-is-inside)
 
 ## [RAG chatbot]
 
