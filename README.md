@@ -9,7 +9,7 @@ In this demo, it includes mainly two things:
 
 ## [RAG chatbot]
 
-### Environments
+### Install
 
 1. Install [redis-stack](https://redis.io/docs/install/install-stack/mac-os/) on MacOS and launch `redis-stack-server` and `redisinsight`:
 
@@ -111,3 +111,24 @@ Visit http://127.0.0.1:8000/rag-redis/playground to use the testing playground, 
 </p>
 
 ## [What is inside]
+
+### Getting started
+
+1. Install the requirements:
+```bash
+pip install -r requirements.txt
+```
+
+2. Install the kernel:
+```bash
+python -m ipykernel install --name rag-redis-demo --user
+```
+
+3. Start JupyterLab:
+```bash
+jupyter lab
+```
+
+## References
+
+* https://huggingface.co/sentence-transformers/msmarco-distilbert-base-tas-b
