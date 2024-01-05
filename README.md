@@ -7,6 +7,24 @@ In this demo, it includes mainly two things:
 - Have a running chatbot powered by Redis 👉 [Follow this route](#rag-chatbot)
 - Rip open the models and see what is inside 👉 [Follow this route](#what-is-inside)
 
+## Some observations
+
+### Create vectors
+- Basic `TF-IDF vectorizer` performs much faster than Transformer models. With regard to quality of search result, it is also on par with Transformer models.
+- Sub-word tokenizers perform better than character tokenizers with regard to number-heavy documents.
+- The fine-tuned model does not perform better than the base ones.
+- Pay attention to the parameters: `batch_size` and `pooling` method can impact the document embeddings.
+
+### Search vectors
+- Pay attention to the searching algorithms used in the embedded space: cosine similarity, KNN or MMR have different results.
+- Topic modeling might help to reduce the searching space.
+
+### Topics visualization
+
+<p float="left">
+    <img src="pix/topics_overview.png" width="500" />
+</p>
+
 ## RAG chatbot
 
 ### Install
@@ -131,4 +149,4 @@ jupyter lab
 
 ## References
 
-* https://huggingface.co/sentence-transformers/msmarco-distilbert-base-tas-b
+* https://huggingface.co/docs/transformers/tokenizer_summary
