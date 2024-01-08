@@ -147,6 +147,21 @@ python -m ipykernel install --name rag-redis-demo --user
 jupyter lab
 ```
 
+>> ![NOTE]
+>> If this error occurs: `NLTK download SSL: Certificate verify failed`, you can run the following code snippet before executing `get_chunks()`:
+>> ```
+>> import nltk
+>> import ssl
+>>
+>> try:
+>>     _create_unverified_https_context = ssl._create_unverified_context
+>> except AttributeError:
+>>     pass
+>> else:
+>>     ssl._create_default_https_context = _create_unverified_https_context
+>>
+>> nltk.download()
+
 ## References
 
 * https://huggingface.co/docs/transformers/tokenizer_summary
