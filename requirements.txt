@@ -1,4 +1,6 @@
 langchain-cli==0.0.20
+unstructured[pdf]==0.11.8
+openai==1.6.1
 pydantic==1.10.13
 nomic==2.0.16
 pinecone-client==2.2.4
