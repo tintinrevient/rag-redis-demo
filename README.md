@@ -147,7 +147,7 @@ python -m ipykernel install --name rag-redis-demo --user
 jupyter lab
 ```
 
-> ![NOTE]
+> [!NOTE]
 > 
 > If this error occurs: `NLTK download SSL: Certificate verify failed`, you can run the following code snippet before executing `get_chunks()`:
 > ```
