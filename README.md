@@ -148,6 +148,7 @@ jupyter lab
 ```
 
 > ![NOTE]
+> 
 > If this error occurs: `NLTK download SSL: Certificate verify failed`, you can run the following code snippet before executing `get_chunks()`:
 > ```
 > import nltk
