@@ -11,13 +11,13 @@ In this demo, it includes mainly two things:
 
 ### Create vectors
 - Basic `TF-IDF vectorizer` performs much faster than Transformer models. With regard to quality of search result, it is also on par with Transformer models.
-- Sub-word tokenizers perform better than character tokenizers with regard to number-heavy documents.
-- The fine-tuned model does not perform better than the base ones.
+- Sub-word tokenizer performs better than character tokenizer with regard to number-heavy documents.
+- The fine-tuned model performs better than the base ones.
 - Pay attention to the parameters: `batch_size` and `pooling` method can impact the document embeddings.
 
 ### Search vectors
-- Pay attention to the searching algorithms used in the embedded space: cosine similarity, KNN or MMR have different results.
-- Topic modeling might help to reduce the searching space.
+- Pay attention to the searching algorithms used in the embedded space: Cosine Similarity, KNN (K-Nearest Neighbors) or MMR (Maximal Marginal Relevance) have different results.
+- Topic modeling can help to reduce the searching space.
 
 ### Topics visualization
 
