@@ -11,7 +11,7 @@ In this demo, it includes mainly two things:
 
 ### Challenges
 
-- [ ] Extract numbers in PDF table-like picture.
+- [x] Extract numbers in PDF table-like picture.
 - [ ] Locate the chunk which contains the desired numbers, e.g., the scope 1 emission for 2022. (LLM understands words better than numbers about their semantic meanings?)
 - [ ] Find the answers in multiple chunks and summarize them in a list, e.g., action plan 1 is xxx, action plan 2 is xxx, etc...
 
