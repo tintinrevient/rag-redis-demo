@@ -9,7 +9,14 @@ In this demo, it includes mainly two things:
 
 ## Some observations
 
+### Challenges
+
+- [ ] Extract numbers in PDF table-like picture.
+- [ ] Locate the chunk which contains the desired numbers, e.g., the scope 1 emission for 2022. (LLM understands words better than numbers about their semantic meanings?)
+- [ ] Find the answers in multiple chunks and summarize them in a list, e.g., action plan 1 is xxx, action plan 2 is xxx, etc...
+
 ### Create vectors
+- Keyword search performs better if you know what you want to search, e.g., scope 1 emission, especially for numbers.
 - Basic `TF-IDF vectorizer` performs much faster than Transformer models. With regard to quality of search result, it is also on par with Transformer models.
 - Sub-word tokenizer performs better than character tokenizer with regard to number-heavy documents.
 - The fine-tuned model performs better than the base ones.
