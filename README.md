@@ -181,3 +181,4 @@ jupyter lab
 * https://www.pinecone.io/learn/series/nlp/unsupervised-training-sentence-transformers/
 * https://developers.google.com/machine-learning/guides/text-classification/step-3
 * https://en.wikipedia.org/wiki/XBRL
+* https://www.infoq.com/articles/similarity-scoring-elasticsearch/
