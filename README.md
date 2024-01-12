@@ -11,8 +11,8 @@ In this demo, it includes mainly two things:
 
 ### Challenges
 
-- [x] Extract numbers in PDF table-like picture.
-- [ ] **Pinpoint** the exact chunk which contains the desired numbers, e.g., the scope 1 emission for 2022. (LLM understands words better than numbers w.r.t. their semantic meanings?)
+- [x] Extract numbers in PDF table-like picture. ✨ [Table Transformer (TATR)](https://github.com/microsoft/table-transformer) can extract info from images to Pandas dataframes.
+- [x] **Pinpoint** the exact chunk which contains the desired numbers, e.g., the scope 1 emission for 2022 is xxx. (LLM understands words better than numbers w.r.t. their semantic meanings?)
 - [ ] **Cast a net** in multiple chunks and summarize them in a list to answer the question, e.g., there are 3 action plans: action plan 1 is xxx, action plan 2 is xxx, etc...
 
 ![overview](pix/goals.png)
@@ -182,3 +182,4 @@ jupyter lab
 * https://developers.google.com/machine-learning/guides/text-classification/step-3
 * https://en.wikipedia.org/wiki/XBRL
 * https://www.infoq.com/articles/similarity-scoring-elasticsearch/
+* https://github.com/microsoft/table-transformer
