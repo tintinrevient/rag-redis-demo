@@ -183,3 +183,4 @@ jupyter lab
 * https://en.wikipedia.org/wiki/XBRL
 * https://www.infoq.com/articles/similarity-scoring-elasticsearch/
 * https://github.com/microsoft/table-transformer
+* https://github.com/MaartenGr/BERTopic
