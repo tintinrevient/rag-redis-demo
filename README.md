@@ -187,3 +187,4 @@ jupyter lab
 * https://www.infoq.com/articles/similarity-scoring-elasticsearch/
 * ✨ https://github.com/microsoft/table-transformer
 * ✨ https://github.com/MaartenGr/BERTopic
+* ✨ https://github.com/NielsRogge/Transformers-Tutorials
