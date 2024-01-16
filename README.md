@@ -174,7 +174,7 @@ jupyter lab
 > ```
 
 ## Other vector stores
-![vectorstores](pix/vector_stores.png)
+![vectorstores](pix/vector_stores.jpeg)
 
 ## References
 
