@@ -180,10 +180,10 @@ jupyter lab
 
 * https://redis.com/blog/announcing-langchain-rag-template-powered-by-redis/
 * https://huggingface.co/docs/transformers/tokenizer_summary
-* https://www.pinecone.io/learn/series/nlp/genq/
+* ✨ https://www.pinecone.io/learn/series/nlp/genq/
 * https://www.pinecone.io/learn/series/nlp/unsupervised-training-sentence-transformers/
 * https://developers.google.com/machine-learning/guides/text-classification/step-3
 * https://en.wikipedia.org/wiki/XBRL
 * https://www.infoq.com/articles/similarity-scoring-elasticsearch/
-* https://github.com/microsoft/table-transformer
-* https://github.com/MaartenGr/BERTopic
+* ✨ https://github.com/microsoft/table-transformer
+* ✨ https://github.com/MaartenGr/BERTopic
