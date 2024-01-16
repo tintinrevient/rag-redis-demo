@@ -173,6 +173,9 @@ jupyter lab
 > nltk.download()
 > ```
 
+## Other vector stores
+![vectorstores](pix/vector_stores.png)
+
 ## References
 
 * https://redis.com/blog/announcing-langchain-rag-template-powered-by-redis/
