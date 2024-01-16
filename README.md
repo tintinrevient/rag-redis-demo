@@ -11,7 +11,7 @@ In this demo, it includes mainly two things:
 
 ### Challenges
 
-- [x] Extract numbers in PDF table-like picture. ✨ [Table Transformer (TATR)](https://github.com/microsoft/table-transformer) can extract info from images to Pandas dataframes. From there, one option is to use [PandasAI 🐼](https://github.com/gventuri/pandas-ai) to chat with the "smart" dataframes to get the answer (tried, cannot deal with complex dataframes 😦).
+- [x] Extract numbers in PDF table-like picture. ✨ [Table Transformer (TATR)](https://github.com/microsoft/table-transformer) can extract info from images to Pandas dataframes. From there, one option is to use [PandasAI 🐼](https://github.com/gventuri/pandas-ai) to chat with the "smart" dataframes to get the answer (tried, cannot deal with complex dataframes like this 😦).
 - [x] **Pinpoint** the exact chunk which contains the desired numbers, e.g., the scope 1 emission for 2022 is xxx. (LLM understands words better than numbers w.r.t. their semantic meanings?)
 - [ ] **Cast a net** in multiple chunks and summarize them in a list to answer the question, e.g., there are 3 action plans: action plan 1 is xxx, action plan 2 is xxx, etc...
 
