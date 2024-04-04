@@ -3,3 +3,5 @@ venv
 cache
 exports
 .DS_Store
+esdata
+kibanadata
