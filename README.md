@@ -188,3 +188,5 @@ jupyter lab
 * ✨ https://github.com/microsoft/table-transformer
 * ✨ https://github.com/MaartenGr/BERTopic
 * ✨ https://github.com/NielsRogge/Transformers-Tutorials
+* https://python.langchain.com/docs/modules/data_connection/retrievers/ensemble/
+* https://huggingface.co/spaces/mteb/leaderboard
